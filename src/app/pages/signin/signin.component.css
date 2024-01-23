@@ -1,0 +1,42 @@
+/* 
+form {
+    margin-top: 40px;
+    max-width: 400px;
+    margin: auto;
+    color: #fff;
+  }
+  
+  .btn-red {
+    background-color: #E50914;
+    color: #fff;
+  }
+  
+  .btn-red:hover {
+    opacity: 0.8;
+  }
+   .h2{
+    color: #fff;
+   } */
+
+/* signin.component.css */
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+}
+.btn-red {
+    background-color: #E50914;
+    color: #fff;
+}
+
+.btn-red:hover {
+    opacity: 0.8;
+}

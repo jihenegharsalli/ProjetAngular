@@ -1,0 +1,112 @@
+<!-- <nav class="navbar navbar-expand-lg fixed-top" [ngStyle]="navbg">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="">Netflix</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="search">Search</a>
+          </li>
+          
+          
+        </ul>
+        
+      </div>
+    </div>
+</nav>
+
+
+
+
+<router-outlet></router-outlet> -->
+
+<!-- <nav class="navbar navbar-expand-lg fixed-top" [ngClass]="{'navbar-transparent': isNavbarTransparent, 'navbar-dark': !isNavbarTransparent, 'navbar-red': !isNavbarTransparent}" [ngStyle]="navbg">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="">
+      <img src="./assets/Netflix.png" alt="Netflix" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="search">Search</a>
+        </li>
+      </ul>
+      <div class="d-flex">
+        <button class="btn btn-red me-2">Sign In</button>
+        <button class="btn btn-black">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet> -->
+
+
+<!-- <nav class="navbar navbar-expand-lg fixed-top" [ngClass]="{'navbar-transparent': isNavbarTransparent, 'navbar-dark': !isNavbarTransparent, 'navbar-red': !isNavbarTransparent}" [ngStyle]="navbg">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="">
+      <img src="./assets/Netflix.png" alt="Netflix" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+     Utilisez ms-auto pour décaler les éléments à droite -->
+    <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="search">Search</a>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Utilisez me-auto pour décaler les boutons à gauche
+    <div class="d-flex me-auto">
+      <button class="btn btn-red me-2">Sign In</button>
+      <button class="btn btn-black">Sign Up</button>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet> -->
+
+<!-- app.component.html -->
+<nav class="navbar navbar-expand-lg fixed-top" [ngClass]="{'navbar-transparent': isNavbarTransparent, 'navbar-dark': !isNavbarTransparent, 'navbar-red': !isNavbarTransparent}" [ngStyle]="navbg">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="">
+      <img src="./assets/Netflix.png" alt="Netflix" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="search">Search</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="d-flex me-auto">
+      <button class="btn btn-red me-2" routerLink="signin">Sign In</button>
+      <button class="btn btn-black" routerLink="signup">Sign Up</button>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
